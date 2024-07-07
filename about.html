@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghod's Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+<link rel="shortcut icon" href="eduford_img/desktop.png" type="x-icon">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="fa/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="eduford_img/logo.png" alt="logo"></a> 
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                  
+                <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li>
+                    <a href="course.html">Course </a>
+                </li>
+                 <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  
+            </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      
+
+        <h1>About Ghod Fada</h1>
+    </section>
+  
+    <section class="about-us">
+
+<div class="row">
+    <div class="about-col">
+        <h1> 
+            Greetings, Traveller!
+        </h1>
+        <p> Welcome to my digital sanctum, where lines of code intertwine like spells woven into the fabric of the web. I am GHOD FADA, a web weaver by trade and a sorcerer of pixels. My journey through the realms of HTML, CSS, and JavaScript has been a quest for mastery, blending creativity with the arcane art of web development.
+            <br><br>
+            Beyond the realms of technology, my essence is forged by a passion for innovation and a commitment to continuous learning. Much like a wizard delving into ancient tomes, I am always seeking new spells (read: frameworks and technologies) to expand my repertoire and enchantment capabilities.
+            <br><br>
+            When not communing with my spellbook (a.k.a. IDE), you may find me in the midst of nature, drawing inspiration from the elements themselves. Whether in the digital ether or the great outdoors, I am a seeker of harmony and balance, weaving threads of creativity into every aspect of my existence.
+            <br><br>
+            Join me on this mystical journey through the digital cosmos, where the pixels shimmer with possibility and innovation knows no bounds. Together, let us embark on an adventure where imagination meets technology, and where every click is a step closer to manifesting our shared visions.
+            </p>
+            <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+<img src="eduford_img/about.jpg" alt="">
+    </div>
+</div>
+    </section>
+
+
+
+<!-------------------footer----------------->
+
+
+<section class="footer">
+    <h4>Stay Updated with GHOD FADA</h4>
+    <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=61551787989868" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/+2349037288167" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>&copy; 2024 <a href="#">Ghod's Tech</a></p>
+</section>
+
+
+
+
+<!--------------script for menu-------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
